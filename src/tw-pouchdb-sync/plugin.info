@@ -1,0 +1,9 @@
+{
+  "title": "$:/plugins/balazsgrill/tw-pouchdb-sync",
+  "name": "tw-pouchdb-sync",
+  "author": "balazsgrill",
+  "description": "Synchronize tiddlers with PouchDB",
+  "plugin-type": "plugin",
+  "version": "0.0.1",
+  "list": "readme"
+}

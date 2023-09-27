@@ -56,10 +56,10 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install Dependencies
-        run: npm install -g pnpm && pnpm install
+        run: npm install
 
       - name: Build Plugins
-        run: pnpm run build
+        run: npm run build
 
       - name: Create Release
         uses: softprops/action-gh-release@v1

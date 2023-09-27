@@ -35,10 +35,10 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install Dependencies
-        run: npm install -g pnpm && pnpm install
+        run: npm install
 
       - name: Build Library and static website
-        run: pnpm run publish
+        run: npm run publish
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
